@@ -13,7 +13,7 @@ from msilib.schema import ListView
 from re import S
 import threading
 from time import sleep
-
+import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 import requests
 import icons
@@ -2307,32 +2307,29 @@ class Ui_MainWindow(object):
 
     def noo(self):
         while True:
-            sleep(0)
-            with open('config.txt', 'r') as arquivo:
-                for linha in arquivo:
-                    lista2.append(linha.replace('\n', ''))
-                    self.listViewAba1.setModel(
-                        QtCore.QStringListModel(lista2))
-                    self.listViewAba1.setStyleSheet(
-                        "QListView::item {"
-                        "  margin-top: 2px;"
-                        "  margin-bottom: 2px;"
-                        "  margin-left: 10px;"
-                        "  margin-right: 10px;"
-                        "  border-width: 1px;"
-                        "  border-color: #999;"
-                        "  border-radius: 9px;"
-                        "  background: #FFFF64;"
-                        "  padding: 10px;"
-                        "}"
-                    )
-                    Ui_MainWindow.remover_linha(linha)
-                    self.listViewAba1.scrollToBottom()
-                    app.processEvents()
-            
-
-
-    
+            sleep(0.5)
+            logs = requests.get('http://localhost:5250/logs').json()["logs"]
+            print(logs)
+            for linha in logs:
+                lista2.append(linha.replace('\n', ''))
+                self.listViewAba1.setModel(
+                    QtCore.QStringListModel(lista2))
+                self.listViewAba1.setStyleSheet(
+                    "QListView::item {"
+                    "  margin-top: 2px;"
+                    "  margin-bottom: 2px;"
+                    "  margin-left: 10px;"
+                    "  margin-right: 10px;"
+                    "  border-width: 1px;"
+                    "  border-color: #999;"
+                    "  border-radius: 9px;"
+                    "  background: #FFFF64;"
+                    "  padding: 10px;"
+                    "}"
+                )
+                Ui_MainWindow.remover_linha(linha)
+                self.listViewAba1.scrollToBottom()
+                app.processEvents()
 
     def remover_linha(linha):
         with open("config.txt", 'r') as f:
@@ -2341,14 +2338,16 @@ class Ui_MainWindow(object):
             for l in lines:
                 if l != linha:
                     f.write(l)
+
+
 if __name__ == "__main__":
-    import sys
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
-    x = threading.Thread(target=ui.noo())
+    x = threading.Thread(target=ui.noo)
     x.daemon = True
     x.start()
     sys.exit(app.exec_())
