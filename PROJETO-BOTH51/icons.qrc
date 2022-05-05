@@ -1,0 +1,41 @@
+<RCC>
+  <qresource prefix="iconesbutton">
+    <file>seguirentresi2.png</file>
+  </qresource>
+  <qresource prefix="iconeverificargni2">
+    <file>iconeverificadorgni2.png</file>
+  </qresource>
+  <qresource prefix="iconeconfiguracao2">
+    <file>iconeconfiguracao2.png</file>
+  </qresource>
+  <qresource prefix="iconeconfiguracao">
+    <file>iconeconfiguracao.png</file>
+  </qresource>
+  <qresource prefix="verificadorgni2">
+    <file>verificadorgni2.png</file>
+  </qresource>
+  <qresource prefix="iconecriar2">
+    <file>iconecriar2.png</file>
+  </qresource>
+  <qresource prefix="iconecriar">
+    <file>iconecriar.png</file>
+  </qresource>
+  <qresource prefix="seguientresi">
+    <file>seguirentresi.png</file>
+  </qresource>
+  <qresource prefix="iconeverificar2">
+    <file>iconeverificar2.png</file>
+  </qresource>
+  <qresource prefix="iconeverificargni">
+    <file>iconeverificadorgi.png</file>
+  </qresource>
+  <qresource prefix="iconemontar2">
+    <file>iconemontar2.png</file>
+  </qresource>
+  <qresource prefix="iconeverificar">
+    <file>iconeverificar.png</file>
+  </qresource>
+  <qresource prefix="iconemontar">
+    <file>iconemontar.png</file>
+  </qresource>
+</RCC>

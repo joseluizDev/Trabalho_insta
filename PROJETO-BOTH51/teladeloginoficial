@@ -1,0 +1,12 @@
+from PyQt5 import QtCore, QtGui, QtWidgets, uic
+
+def chama_telaqrcode():
+    telaqrcode.show()
+
+telalogin = QtWidgets.QApplication([])
+tela1 = uic.loadUi('janelaLogin.ui')
+telaqrcode = uic.loadUi('janelaQrcode.ui')
+tela1.buttonQrcode.clicked.connect(chama_telaqrcode)
+
+tela1.show()
+telalogin.exec()

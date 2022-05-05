@@ -1,0 +1,5057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Bot H51</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="logo2.qrc">
+    <normaloff>:/logoIcone/1.png</normaloff>:/logoIcone/1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(35, 45, 55);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>900</width>
+     <height>680</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>680</height>
+    </size>
+   </property>
+   <widget class="QPushButton" name="buttonCriador">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>230</y>
+      <width>85</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-image: url(:/iconecriar/iconecriar.png);
+	background-repeat: no repeat;
+	background-position: center;
+}
+QPushButton:hover {
+	background-image: url(:/iconecriar2/iconecriar2.png);
+	background-repeat: no repeat;
+	background-position: center;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonMontador">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>290</y>
+      <width>85</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	
+	background-image: url(:/iconemontar/iconemontar.png);
+	background-repeat: no repeat;
+	background-position: center;
+}
+QPushButton:hover {
+	
+	background-image: url(:/iconemontar2/iconemontar2.png);
+	background-repeat: no repeat;
+	background-position: center;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonVerificador">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>360</y>
+      <width>85</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	
+	background-repeat: no repeat;
+	background-image: url(:/iconeverificar/iconeverificar.png);
+	background-position: center;
+}
+QPushButton:hover {
+	
+	
+	background-image: url(:/iconeverificar2/iconeverificar2.png);
+	background-repeat: no repeat;
+	background-position: center;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonSeguirentresi">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>430</y>
+      <width>85</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-repeat: no repeat;
+	
+	background-image: url(:/seguientresi/seguirentresi.png);
+	background-position: center;
+}
+QPushButton:hover {
+	
+	background-image: url(:/iconesbutton/seguirentresi2.png);
+	background-repeat: no repeat;
+	background-position: center;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonVerificadorGNI">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>500</y>
+      <width>85</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-repeat: no repeat;
+	background-image: url(:/iconeverificargni/iconeverificadorgi.png);
+	background-position: center;
+}
+QPushButton:hover {
+	background-image: url(:/iconeverificargni2/iconeverificadorgni2.png);
+	background-repeat: no repeat;
+	background-position: center;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonConfiguracao">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>570</y>
+      <width>85</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-repeat: no repeat;
+	background-image: url(:/iconeconfiguracao/iconeconfiguracao.png);
+	background-position: center;
+}
+QPushButton:hover {
+	background-image: url(:/iconeconfiguracao2/iconeconfiguracao2.png);
+	background-repeat: no repeat;
+	background-position: center;
+}</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>84</x>
+      <y>210</y>
+      <width>3</width>
+      <height>430</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 100);</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>631</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid rgb(255,255,100)</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frameConfiguracao">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>170</y>
+      <width>811</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>285</x>
+       <y>10</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>17</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 100);</string>
+     </property>
+     <property name="text">
+      <string>Configuração</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>60</y>
+       <width>771</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>CocoSharp Trial</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none</string>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="criar">
+      <attribute name="title">
+       <string>  Criador          </string>
+      </attribute>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>181</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>181</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Selecione o navegador</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+        <property name="buddy">
+         <cstring></cstring>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radChrome">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>50</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Chrome</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radFirefox">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>50</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Firefox</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radEdge">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>80</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Edge</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radBrave">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>80</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Brave</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>130</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>0</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Anônimo ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radAnomSim">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radAnomNao">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>270</y>
+         <width>191</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Modo do navegador</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radNavCelul">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Celular</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radNavComput">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>111</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Computador</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_5">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>30</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Habilitar postagem ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radPostNao">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radPostSim">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_6">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>100</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Método de postagem:</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radPostAPI">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>API</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radPostNav">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Navegador</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_7">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>170</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>17</x>
+          <y>0</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Gênero do perfil</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radGenMasc">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string comment="10">Masc</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radGenFem">
+        <property name="geometry">
+         <rect>
+          <x>4</x>
+          <y>40</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string comment="0">Fem</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radGenAll">
+        <property name="geometry">
+         <rect>
+          <x>124</x>
+          <y>40</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>All</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_8">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>230</y>
+         <width>181</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QSpinBox" name="spinDestaq">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>50</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>20</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Postagens e Destaques</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinPost">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>50</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_9">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>310</y>
+         <width>171</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Tempo entre ações</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinTempMin">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="singleStep">
+         <number>1</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinTempMax">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>40</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_10">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>30</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Habilitar legenda ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radLegendSim">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radLegendNao">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_11">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>100</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Edição e filtros ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radFilterNao">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radFilterSim">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_12">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>170</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>37</x>
+          <y>0</y>
+          <width>90</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Biografia ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radBioNao">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radBioSim">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_13">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>240</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>0</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Seguir sugeridos ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radSeguirNao">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radSeguirSim">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_14">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>310</y>
+         <width>171</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>164</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Descreva a quantidade</string>
+        </property>
+        <property name="indent">
+         <number>1</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinQuantSeguir">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>40</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>615</x>
+         <y>30</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>CocoSharp Trial</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 100);</string>
+       </property>
+       <property name="text">
+        <string>Selecione o email</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>615</x>
+         <y>70</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(255, 255, 100) </string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_15">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>200</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>55</x>
+          <y>0</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Visível ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVisivNao">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVisivSim">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Montador          </string>
+      </attribute>
+      <widget class="QFrame" name="frame_16">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>130</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>0</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Anônimo ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radAnomSim_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radAnomNao_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_17">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>20</y>
+         <width>181</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>181</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Selecione o navegador</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+        <property name="buddy">
+         <cstring></cstring>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radChrome_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>50</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Chrome</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radFirefox_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>50</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Firefox</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radEdge_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>80</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Edge</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radBrave_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>80</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Brave</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_18">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>270</y>
+         <width>191</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Modo do navegador</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radNavCelul_2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Celular</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radNavComput_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>111</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Computador</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_19">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>200</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>55</x>
+          <y>0</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Visível ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVisivNao_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVisivSim_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_20">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>170</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>17</x>
+          <y>0</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Gênero do perfil</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radGenMasc_2">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string comment="10">Masc</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radGenFem_2">
+        <property name="geometry">
+         <rect>
+          <x>4</x>
+          <y>40</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string comment="0">Fem</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radGenAll_2">
+        <property name="geometry">
+         <rect>
+          <x>124</x>
+          <y>40</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>All</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_21">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>230</y>
+         <width>181</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QSpinBox" name="spinDestaq_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>50</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>20</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Postagens e Destaques</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinPost_2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>50</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_22">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>100</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Método de postagem:</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radPostAPI_2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>API</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radPostNav_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Navegador</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_23">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>30</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Habilitar postagem ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radPostNao_2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radPostSim_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_24">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>310</y>
+         <width>171</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Tempo entre ações</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinTempMin_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="singleStep">
+         <number>1</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinTempMax_2">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>40</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_25">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>100</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Edição e filtros ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radFilterNao_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radFilterSim_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_26">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>240</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>0</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Seguir sugeridos ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radSeguirNao_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radSeguirSim_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_27">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>310</y>
+         <width>171</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>164</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Descreva a quantidade</string>
+        </property>
+        <property name="indent">
+         <number>1</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinQuantSeguir_2">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>40</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_28">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>170</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>37</x>
+          <y>0</y>
+          <width>90</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Biografia ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radBioNao_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radBioSim_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_29">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>30</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(35,45,55);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Habilitar legenda ?</string>
+        </property>
+        <property name="indent">
+         <number>5</number>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radLegendSim_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radLegendNao_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Verificador          </string>
+      </attribute>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>231</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Cocogoose Pro</family>
+         <pointsize>10</pointsize>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 100)</string>
+       </property>
+       <property name="text">
+        <string>Personalização da verificação</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_30">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>191</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Verificar foto de perfil ?</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVerifPerfNao">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>30</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVeriPerfSim">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_31">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>130</y>
+         <width>191</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Verificar biografia ?</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVerifPerfNao_2">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>30</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVerifPerfSim">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_32">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>200</y>
+         <width>191</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Seguidores ?</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVerifSegNao">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>35</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVerifSegSim">
+        <property name="geometry">
+         <rect>
+          <x>5</x>
+          <y>35</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinVerifQuantSeg">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>30</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_33">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>270</y>
+         <width>191</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Seguindo ?</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVisivNao_6">
+        <property name="geometry">
+         <rect>
+          <x>125</x>
+          <y>30</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Não</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radVisivSim_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinVerifQuantSeguindo">
+        <property name="geometry">
+         <rect>
+          <x>55</x>
+          <y>25</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Seguir entre si          </string>
+      </attribute>
+      <widget class="QLabel" name="label_36">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>331</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Cocogoose Pro</family>
+         <pointsize>10</pointsize>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 100)</string>
+       </property>
+       <property name="text">
+        <string>Personalização do modo de seguir entre si</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_34">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>191</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Modo de seguir</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radModUmSegTds">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>55</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>1 para seguir todos</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radModTdsSEg">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+          <underline>false</underline>
+          <stylestrategy>PreferDefault</stylestrategy>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="text">
+         <string>Todos para seguir 1</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_35">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>160</y>
+         <width>191</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Tempo entre seguir</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinTempMinSeg">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="singleStep">
+         <number>1</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinTempMaxSeg">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>30</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Cocogoose Pro</family>
+          <pointsize>9</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 100);</string>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Verificador GNI          </string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>295</x>
+       <y>485</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>9</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 255, 100);
+	color: rgb(35,45,55);
+}
+QPushButton:pressed{
+	background-color: rgb(255, 255, 255);
+	color: rgb(35,45,55);
+}</string>
+     </property>
+     <property name="text">
+      <string>Salvar Configurações</string>
+     </property>
+     <property name="shortcut">
+      <string>Return</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frameVerificadorGNI">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>911</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_39">
+     <property name="geometry">
+      <rect>
+       <x>265</x>
+       <y>10</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>17</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 100);</string>
+     </property>
+     <property name="text">
+      <string>Verificador GNI</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkExcluirComAnalise">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>90</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>12</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Excluir com análise</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkSomenteExcluir">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>120</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>12</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Somente excluir</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditEmailGNI">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>200</y>
+       <width>351</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>10</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	border: 3px solid rgb(255,255,255);
+	background-color: rgb(255, 255, 100);
+	color: rgb(35,45,55);
+	padding: 10px;
+}
+QLineEdit:hover{
+	border: 1px solid rgb(255,255,100);
+	background-color: rgb(255,255,255);
+	color: rgb(35,45,55);
+	padding: 10px;
+}
+QLineEdit:pressed{
+	border: 1px solid rgb(255,255,100);
+	background-color: rgb(255,255,255);
+	color: rgb(35,45,55);
+	padding: 10px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Email do GNI</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditSenhaGNI">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>260</y>
+       <width>351</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>10</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	border: 3px solid rgb(255,255,255);
+	background-color: rgb(255, 255, 100);
+	color: rgb(35,45,55);
+	padding: 10px;
+}
+QLineEdit:hover{
+	border: 1px solid rgb(255,255,100);
+	background-color: rgb(255,255,255);
+	color: rgb(35,45,55);
+	padding: 10px;
+}
+QLineEdit:pressed{
+	border: 1px solid rgb(255,255,100);
+	background-color: rgb(255,255,255);
+	color: rgb(35,45,55);
+	padding: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Senha do GNI</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_40">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>320</y>
+       <width>411</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>*Atenção: Nós não salvamos estes dados em nossos bancos de dados!</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_41">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>340</y>
+       <width>271</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>É de uso exclusivo para função de verificação</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buttonIniciarVeriGNI">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>370</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>10</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 100);
+color: rgb(35,45,55);</string>
+     </property>
+     <property name="text">
+      <string>Iniciar</string>
+     </property>
+    </widget>
+    <widget class="QListView" name="listViewVeriGNI">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>80</y>
+       <width>311</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(45,55,65);
+border:none</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frameSeguirentresi">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>821</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_42">
+     <property name="geometry">
+      <rect>
+       <x>265</x>
+       <y>10</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>17</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 100);</string>
+     </property>
+     <property name="text">
+      <string>Seguir entre si</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_43">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>110</y>
+       <width>261</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Página em manutenção.</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_44">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>140</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Entre em nosso grupo, fique sempre atualizado(a)</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frameVerificador">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>820</width>
+      <height>540</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_45">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>10</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>17</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 100);</string>
+     </property>
+     <property name="text">
+      <string>Verificador</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_46">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>110</y>
+       <width>261</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Página em manutenção.</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_47">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>140</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Entre em nosso grupo, fique sempre atualizado(a)</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frameIgnore_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>220</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/logo2/logo2.png);
+background-position: center;
+background-repeat: no repeat</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frameMontador">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>820</width>
+      <height>540</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_48">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>10</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>17</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 100);</string>
+     </property>
+     <property name="text">
+      <string>Montador</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEditContasPMontar">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>371</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,100);
+background-color: rgb(45,55,65);
+border: 1px solid rgb(255,255,100);</string>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="placeholderText">
+      <string> conta senha</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buttonInicarMontador">
+     <property name="geometry">
+      <rect>
+       <x>359</x>
+       <y>485</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>9</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid rgb( 255,255,100);
+	color: rgb(35,45,55);
+	background-color: rgb(255, 255, 100);
+}
+QPushButton:pressed{
+	border: 5px rgb( 255,255,255);
+	color: rgb(35,45,55);
+	background-color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Iniciar</string>
+     </property>
+    </widget>
+    <widget class="QListView" name="listViewMontad">
+     <property name="geometry">
+      <rect>
+       <x>415</x>
+       <y>60</y>
+       <width>371</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid rgb(255,255,255)
+</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frameCriador">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>900</width>
+      <height>680</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>900</width>
+      <height>680</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>900</width>
+      <height>680</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_49">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>-10</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat ExtraBold</family>
+       <pointsize>17</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 100);</string>
+     </property>
+     <property name="text">
+      <string>Criador</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <property name="indent">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buttonIniciarcriacao">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>470</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>9</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 2.5px solid rgb(255.255.255);
+	color: rgb(35,45,55);
+	background-color: rgb(255,255,100);
+	border-radius: 5px
+}
+QPushButton:pressed{
+	border: 1px solid rgb(255.255.255);
+	color: rgb(35,45,55);
+	background-color: rgb(255,255,255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Iniciar aba de criação</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>771</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QListView" name="listViewAba1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>0</y>
+        <width>731</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1.2px solid rgb(255,255,100)</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+      </property>
+      <property name="autoScrollMargin">
+       <number>16</number>
+      </property>
+      <property name="alternatingRowColors">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_36">
+     <property name="geometry">
+      <rect>
+       <x>286</x>
+       <y>468</y>
+       <width>511</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>IBeamCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(230,245,245);
+border-radius: 7px</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="labelContascriadas">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>7</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cocogoose Pro</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(35, 45, 55);</string>
+      </property>
+      <property name="text">
+       <string>Contas criadas: 0 </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelFotospostadas">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>7</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cocogoose Pro</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(35, 45, 55);</string>
+      </property>
+      <property name="text">
+       <string>Fotos postadas: 0 </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelSMS">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>7</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Cocogoose Pro</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(35, 45, 55);</string>
+      </property>
+      <property name="text">
+       <string>SMS: 0 </string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>0</y>
+        <width>3</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 100);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_3">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>0</y>
+        <width>3</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 100);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="buttonIniciarcriacao_2">
+     <property name="geometry">
+      <rect>
+       <x>198</x>
+       <y>475</y>
+       <width>75</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cocogoose Pro</family>
+       <pointsize>10</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 2.2px solid rgb(255.255.255);
+	color: rgb(255,255,255);
+	background-color: rgb(255, 38, 0);
+	border-radius: 15px
+}
+QPushButton:pressed{
+	border: 1px solid rgb(255.255.255);
+	color: rgb(35,45,55);
+	background-color: rgb(255,255,255);
+}</string>
+     </property>
+     <property name="text">
+      <string>PARAR</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+  <include location="logo2.qrc"/>
+ </resources>
+ <connections/>
+</ui>

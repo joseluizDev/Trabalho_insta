@@ -1,0 +1,57 @@
+{
+  "navegador": {
+    "navegador_anonimo": false,
+    "ocultar_navegador": false,
+    "desativar_imagens": true,
+    "user_agent_aleatorio_mobile": true,
+    "user_agent_aleatorio_desktop": true,
+    "user_agent_fixo_desktop": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36",
+    "user_agent_fixo_mobile": "Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36"
+  },
+  "email": { "__comment__": "emailfake 0,layonsEmail 1", "email": 0 },
+  "criacao": {
+    "genero": "F",
+    "quantidade_de_contas": 500,
+    "senha": "gen1122",
+    "tempo_entre_criacao": {
+      "inicial": 2,
+      "final": 10
+    },
+    "tempo_entre_sms": {
+      "inicial": 2,
+      "final": 10
+    }
+  },
+  "montagem": {
+    "montar_por_api": false,
+    "mont": true,
+    "bioaleatoria": true,
+    "alterar_genero": true,
+    "legenda": true,
+    "alterar_foto_de_perfil": true,
+    "limpar_login": true,
+    "verificar_postagens": true,
+    "trocar_email": true,
+    "qauntidade_de_fotos": 1,
+    "tempo_entre_postagem": {
+      "inicial": 2,
+      "final": 5
+    },
+    "seguir_recomendados": {
+      "seguir": 10,
+      "seguir_ao_criar": false,
+      "seguir_no_inicio_da_montagem": false,
+      "seguir_no_final_da_montagem": false
+    },
+    "postagen_de_story": {
+      "quantidade_fotos": 5,
+      "tempo_inicial": 2,
+      "tempo_final": 5
+    },
+    "postagen_de_destaque": {
+      "quantidade_fotos": 3,
+      "tempo_inicial": 2,
+      "tempo_final": 5
+    }
+  }
+}
