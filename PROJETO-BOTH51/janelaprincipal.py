@@ -2339,6 +2339,21 @@ class Ui_MainWindow(object):
                 if l != linha:
                     f.write(l)
 
+def abrir_configuracao(ui):
+    ui.frameCriador.close()
+    ui.frameMontador.close()
+    ui.frameVerificador.close()
+    ui.frameVerificadorGNI.close()
+    ui.frameSeguirentresi.close()
+    ui.frameConfiguracao.show()
+
+def abrir_criador(ui):
+    ui.frameMontador.close()
+    ui.frameVerificador.close()
+    ui.frameVerificadorGNI.close()
+    ui.frameSeguirentresi.close()
+    ui.frameConfiguracao.close()
+    ui.frameCriador.show()
 
 if __name__ == "__main__":
 
@@ -2350,4 +2365,7 @@ if __name__ == "__main__":
     x = threading.Thread(target=ui.noo)
     x.daemon = True
     x.start()
+    ui.buttonConfiguracao.clicked.connect(lambda: abrir_configuracao(ui))
+    ui.buttonCriador.clicked.connect(lambda: abrir_criador(ui))
+
     sys.exit(app.exec_())
