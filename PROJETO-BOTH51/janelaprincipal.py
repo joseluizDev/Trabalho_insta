@@ -2338,7 +2338,7 @@ class Ui_MainWindow(object):
             for l in lines:
                 if l != linha:
                     f.write(l)
-
+#função nova
 def abrir_configuracao(ui):
     ui.frameCriador.close()
     ui.frameMontador.close()
